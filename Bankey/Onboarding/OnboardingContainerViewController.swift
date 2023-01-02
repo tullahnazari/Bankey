@@ -7,12 +7,18 @@
 
 import UIKit
 
+protocol onboardingContainerViewControllerDelegate: AnyObject {
+    func didOnboard()
+}
+
 class OnboardingContainerViewController: UIViewController {
 
     let pageViewController: UIPageViewController
     var pages = [UIViewController]()
     var currentVC: UIViewController
     let closeButton = UIButton(type: .system)
+    
+    weak var delegate: onboardingContainerViewControllerDelegate?
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
@@ -145,6 +151,8 @@ class ViewController3: UIViewController {
 // MARK: - Actions
 extension OnboardingContainerViewController {
     @objc func closeTapped(_ sender: UIButton) {
+        
+        delegate?.didOnboard()
         // TODO
     }
 }
