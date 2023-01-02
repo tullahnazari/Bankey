@@ -7,6 +7,8 @@
 
 import UIKit
 
+let appColor: UIColor = .systemTeal
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -18,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let dummyViewController = DummyViewController()
     
+    let mainViewController = MainViewController()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -28,10 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         onboardingViewController.delegate = self
         dummyViewController.logoutDelegate = self
         
-        window?.rootViewController = loginViewCOntroller
+        window?.rootViewController = mainViewController
 //        window?.rootViewController = OnboardingContainerViewController()
 //        window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "Banksy is faster, easier to use, and has a brand new look and feel that will make you feel like you are back in 1989.")
-        
+        mainViewController.selectedIndex = 2
         return true
     }
     
