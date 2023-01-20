@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C08B02329759390004B806E /* ShakyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B02229759390004B806E /* ShakyBellView.swift */; };
+		2C08B025297A33F1004B806E /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B024297A33F1004B806E /* Date+Utils.swift */; };
+		2C08B027297A34AB004B806E /* AcocuntSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B026297A34AB004B806E /* AcocuntSummaryViewController+Networking.swift */; };
 		2C3ADC94295E52B100E78AAB /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3ADC93295E52B100E78AAB /* OnboardingContainerViewController.swift */; };
 		2C3ADC96295E57D500E78AAB /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3ADC95295E57D500E78AAB /* OnboardingViewController.swift */; };
 		2C3CD8F3296F0C8C00906170 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3CD8F2296F0C8C00906170 /* NSNotificationName.swift */; };
@@ -42,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		2C08B02229759390004B806E /* ShakyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakyBellView.swift; sourceTree = "<group>"; };
+		2C08B024297A33F1004B806E /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		2C08B026297A34AB004B806E /* AcocuntSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AcocuntSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		2C3ADC93295E52B100E78AAB /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		2C3ADC95295E57D500E78AAB /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		2C3CD8F2296F0C8C00906170 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
@@ -136,18 +140,20 @@
 				2C6C00452967038100813C47 /* CurrencyFormatter.swift */,
 				2C3CD8F2296F0C8C00906170 /* NSNotificationName.swift */,
 				2C3CD8F4296F0E1700906170 /* UITextfieldSecureToggle.swift */,
+				2C08B024297A33F1004B806E /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		2CC6C7EA296343D600784DF3 /* AccountSymmary */ = {
+		2CC6C7EA296343D600784DF3 /* AccountSummary */ = {
 			isa = PBXGroup;
 			children = (
 				2CC6C7EB2963441600784DF3 /* AccountSummaryViewController.swift */,
+				2C08B026297A34AB004B806E /* AcocuntSummaryViewController+Networking.swift */,
 				2C4E9BD22965BA660073AD85 /* Header */,
 				2C4E9BD32965BA710073AD85 /* Cells */,
 			);
-			path = AccountSymmary;
+			path = AccountSummary;
 			sourceTree = "<group>";
 		};
 		2CEFFE3C295A2F130020FA49 = {
@@ -176,7 +182,7 @@
 				2CC6C7E8296335F200784DF3 /* MainViewController.swift */,
 				2CEFFE5E295A3AFA0020FA49 /* Login */,
 				2C3ADC92295E527800E78AAB /* Onboarding */,
-				2CC6C7EA296343D600784DF3 /* AccountSymmary */,
+				2CC6C7EA296343D600784DF3 /* AccountSummary */,
 				2CC6C7E32962915E00784DF3 /* Utils */,
 				2CEFFE5D295A3AAE0020FA49 /* Files */,
 			);
@@ -313,7 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C08B027297A34AB004B806E /* AcocuntSummaryViewController+Networking.swift in Sources */,
 				2CC6C7E7296334B600784DF3 /* UIViewController+Utils.swift in Sources */,
+				2C08B025297A33F1004B806E /* Date+Utils.swift in Sources */,
 				2C08B02329759390004B806E /* ShakyBellView.swift in Sources */,
 				2CEFFE60295A3B600020FA49 /* LoginView.swift in Sources */,
 				2CC6C7E52962917100784DF3 /* LocalState.swift in Sources */,
