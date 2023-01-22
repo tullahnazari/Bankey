@@ -77,10 +77,118 @@
             filePath = "Bankey/AccountSummary/AccountSummaryViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Bankey/AccountSummary/AccountSummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "AccountSummaryViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - 527a138205848aa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.isLoaded.getter : Swift.Bool"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - 87db3256b36d3a8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.isLoaded.setter : Swift.Bool"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - d2b8712c6c73ea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.isLoaded.modify : Swift.Bool"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - 975c16d33eb89a21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.isLoaded.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - fbce599790084519"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Bankey.AccountSummaryViewController"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "F96D064F-9D5D-4F06-8D6B-3DE518D60E92 - eb4135717f80bfe5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Bankey.AccountSummaryViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Bankey.AccountSummaryViewController&gt;"
+                  moduleName = "Bankey"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tullahnazari/practice/Bankey/Bankey/AccountSummary/AccountSummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
